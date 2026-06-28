@@ -2,20 +2,20 @@
 
 ## 📌 Project Overview
 
-This project analyzes consumer financial complaints to identify major customer pain points, complaint trends, service quality issues, and operational improvement opportunities within the financial services sector.
+This project analyzes over **550,000 consumer financial complaints** to identify complaint trends, customer pain points, service quality issues, and business improvement opportunities across major financial institutions.
 
-The analysis was performed using **Python**, **Pandas**, and **Power BI** on a large-scale consumer complaint dataset.
+The project involves data cleaning, exploratory data analysis (EDA), KPI generation, and Power BI dashboard development.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Business Objectives
 
-* Analyze complaint patterns across financial products
-* Identify major customer pain points
-* Evaluate complaint handling effectiveness
-* Assess state-wise complaint distribution
-* Identify institutions receiving the highest complaint volumes
-* Generate data-driven business and policy recommendations
+* Analyze complaint patterns across financial products.
+* Identify the most common consumer issues.
+* Evaluate complaint handling efficiency.
+* Compare complaint volumes across states.
+* Identify companies receiving the highest complaint volumes.
+* Generate data-driven recommendations for improving customer experience.
 
 ---
 
@@ -25,29 +25,12 @@ The analysis was performed using **Python**, **Pandas**, and **Power BI** on a l
 * Pandas
 * NumPy
 * Power BI
+* Git
 * GitHub
-* Data Analytics
-* Business Intelligence
 
 ---
 
-## 📊 Dataset Information
-
-**Source:** Consumer Financial Complaint Database
-
-**Records Analyzed:** 550,949
-
-### Products Included
-
-* Loans
-* Credit Card Services
-* Bank Accounts and Services
-
-> Note: Original datasets are not included in this repository due to file size limitations.
-
----
-
-## 📈 Key Metrics
+## 📊 Dataset Summary
 
 | Metric                 | Value   |
 | ---------------------- | ------- |
@@ -55,29 +38,27 @@ The analysis was performed using **Python**, **Pandas**, and **Power BI** on a l
 | Financial Institutions | 3,831   |
 | Timely Response Rate   | 98.15%  |
 
----
+### Product Distribution
 
-## 📉 Product Distribution
-
-| Product Category         | Complaints |  Share |
-| ------------------------ | ---------: | -----: |
-| Loans                    |    228,599 | 41.49% |
-| Credit Card Services     |    163,710 | 29.71% |
-| Bank Accounts & Services |    158,640 | 28.79% |
+| Product                  | Complaints |
+| ------------------------ | ---------: |
+| Loans                    |    228,599 |
+| Credit Card Services     |    163,710 |
+| Bank Accounts & Services |    158,640 |
 
 ---
 
-## 🔍 Top Complaint Issues
+## 🔍 Key Insights
+
+### Top Complaint Categories
 
 * Managing an account
 * Trouble during payment process
-* Problem with a purchase shown on your statement
-* Dealing with your lender or servicer
+* Problem with a purchase shown on statement
+* Dealing with lender or servicer
 * Struggling to pay mortgage
 
----
-
-## 🌎 Top States by Complaint Volume
+### Top States by Complaint Volume
 
 1. California
 2. Florida
@@ -85,60 +66,41 @@ The analysis was performed using **Python**, **Pandas**, and **Power BI** on a l
 4. New York
 5. Georgia
 
----
+### Top Financial Institutions by Complaint Volume
 
-## 🏦 Top Financial Institutions
-
-1. Wells Fargo & Company
-2. JPMorgan Chase & Co.
-3. Bank of America
-4. Citibank
-5. Capital One Financial Corporation
+* Wells Fargo & Company
+* JPMorgan Chase & Co.
+* Bank of America
+* Citibank
+* Capital One Financial Corporation
 
 ---
 
-## 💡 Key Insights
+## 📈 Dashboard Preview
 
-* Loan-related complaints account for over **41%** of all complaints.
-* California records the highest complaint volume among all states.
-* Most complaints receive timely responses, indicating strong service responsiveness.
-* Complaint concentration among major financial institutions highlights opportunities for customer experience improvement.
-* Account management and payment-related issues represent the most common customer concerns.
+> Dashboard development is currently in progress.
+
+![Dashboard Preview](images/dashboard_preview.png)
 
 ---
 
 ## 📂 Repository Structure
 
 ```text
-consumer-complaint-analytics
+RBI_COMPLAINT_PROJECT
 │
 ├── scripts
-│   ├── filter_rbi_dataset.py
-│   ├── create_final_dataset.py
-│   └── analysis.py
+│   └── filter_rbi_dataset.py
 │
 ├── powerbi_dashboard
 │
 ├── images
+│   └── dashboard_preview.png
 │
 ├── README.md
 ├── requirements.txt
 └── .gitignore
 ```
-
----
-
-## 📊 Dashboard
-
-Power BI dashboard developed to monitor:
-
-* Complaint trends
-* Product-wise complaints
-* State-wise complaint distribution
-* Company-wise complaint analysis
-* Timely response performance
-
-Power BI dashboard files and screenshots will be added in future updates.
 
 ---
 
@@ -148,7 +110,7 @@ Power BI dashboard files and screenshots will be added in future updates.
 * Complaint Trend Forecasting
 * Sentiment Analysis
 * Risk Scoring Framework
-* Automated Policy Recommendation Engine
+* Automated Recommendation Engine
 
 ---
 
@@ -158,4 +120,4 @@ Power BI dashboard files and screenshots will be added in future updates.
 
 MBA (Analytics & Data Science)
 
-Data Analytics | Business Intelligence | Power BI | Python
+Power BI | Python | Data Analytics | Business Intelligence
