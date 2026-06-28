@@ -117,8 +117,7 @@ consumer-complaint-analytics
 │   ├── create_final_dataset.py
 │   └── analysis.py
 │
-├── dashboard
-│   └── trt.pbix
+├── powerbi_dashboard
 │
 ├── images
 │
@@ -139,7 +138,7 @@ Power BI dashboard developed to monitor:
 * Company-wise complaint analysis
 * Timely response performance
 
-Dashboard screenshots will be added in future updates.
+Power BI dashboard files and screenshots will be added in future updates.
 
 ---
 
